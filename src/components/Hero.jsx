@@ -23,7 +23,7 @@ const Hero = () => {
             in creating visually captivating and <br className='sm:block hidden' />
             user-friendly web interfaces. 
             <br className='sm:block hidden' />
-            Browse through my portfolio to explore  <br className='sm:block hidden' />
+             Browse through my portfolio to explore  <br className='sm:block hidden' />
             my work and learn more about me. <br className='sm:block hidden' />
 
              
