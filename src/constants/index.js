@@ -120,7 +120,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front End Developer",
+    title: "Software Engineer",
     company_name: "Scanpoint Geomatics Limited",
     icon: sgl,
     iconBg: "#E6DEDD",
@@ -128,8 +128,8 @@ const experiences = [
     points: [
       "I played a crucial role in the development and implementation of functional tools and features for a 3D platform. This platform was designed to handle and manipulate massive geospatial data, allowing users to create, process, view, and analyze such data with ease.",
       "One of my significant contributions was incorporating Geographic Information System (GIS) data and services into the platform. By leveraging Open Geospatial Consortium (OGC) services, I enabled geoprocessing capabilities, empowering users to perform spatial analysis and manipulation on the platform. This integration enhanced the platform's functionality and provided users with powerful tools to work with geospatial data effectively.",
-      "Additionally, I worked on API integration as part of my responsibilities. This involved integrating various APIs into the platform to enhance its capabilities and provide seamless data exchange between different systems. By integrating APIs from external services and data providers, I facilitated the platform's ability to access and retrieve geospatial data from a wide range of sources, enriching the user experience and expanding the platform's data resources.",
-      "In summary, my experience as a front-end developer involved developing and implementing tools and features for a 3D platform focused on geospatial data. I incorporated GIS data and services, integrating OGC services to enable geoprocessing functionalities. Furthermore, I worked on API integration to enhance data access and retrieval capabilities, ensuring seamless data exchange with external services and data providers."
+      "Designed and developed a Restful API using Node.js, Fastify, and PostgreSQL, implementing SQL injection prevention measures to enhance security and improve application resilience. Optimized response time by 20ms through cluster module integration, resulting in improved performance, and successfully demonstrated the enhancements in a live demo.", 
+      "Leveraged expertise in Geometric and spatial operations to optimize data visualization and facilitate precise spatial analysis for smart city initiatives."
     ],
   },
   
