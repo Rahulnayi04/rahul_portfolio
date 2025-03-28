@@ -138,7 +138,7 @@ const experiences = [
     company_name: "Scanpoint Geomatics Limited",
     icon: sgl,
     iconBg: "#E6DEDD",
-    date: "July 2021 - Present",
+    date: "July 2021 - Oct 2023",
     points: [
       "I played a crucial role in the development and implementation of functional tools and features for a 3D platform. This platform was designed to handle and manipulate massive geospatial data, allowing users to create, process, view, and analyze such data with ease.",
       "One of my significant contributions was incorporating Geographic Information System (GIS) data and services into the platform. By leveraging Open Geospatial Consortium (OGC) services, I enabled geoprocessing capabilities, empowering users to perform spatial analysis and manipulation on the platform. This integration enhanced the platform's functionality and provided users with powerful tools to work with geospatial data effectively.",
@@ -176,6 +176,27 @@ const testimonials = [
 ];
 
 const projects = [
+{
+    "name": "SupraNS",
+    "description": "SupraNS on Dexlyn is a decentralized name service for Web3. Own your blockchain identity, simplify transactions, and connect effortlessly to DeFi.",
+    "tags": [
+      {
+        "name": "react",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "redux",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "nextjs",
+        "color": "pink-text-gradient"
+      }
+    ],
+    "image": suprans,
+    "source_code_link": "https://suprans.id"
+},
+
   {
     name: "Survey Solution",
     description:
