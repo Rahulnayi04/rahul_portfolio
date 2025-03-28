@@ -28,7 +28,8 @@ import {
   jenkins,
   sgl,
   pruthvi3d,
-  restapi
+  restapi,
+  codezeros
 } from "../assets";
 
 export const navLinks = [
@@ -119,6 +120,19 @@ const technologies = [
 ];
 
 const experiences = [
+{
+    "title": "Sr. Software Engineer",
+    "company_name": "Codezeros",
+    "icon": codezeros,
+    "iconBg": "#E6DEDD",
+    "date": "Jan 2024 - Present",
+    "points": [
+      "Led a team of six engineers in designing and implementing the architecture for a scalable Real Estate CRM, optimizing workflows for property management and lead tracking.",
+      "Spearheaded project planning, including requirements analysis and tech stack selection, leveraging Next.js for the frontend and Directus for the backend to ensure seamless data management and user experience.",
+      "Architected a multi-instance Directus solution to support multiple client deployments while maintaining consistency across shared data structures.",
+      "Designed and built a Web3 Naming Service, enabling users to buy, sell, and transfer domains securely, while integrating blockchain-based ownership and transaction mechanisms."
+    ]
+},
   {
     title: "Software Engineer",
     company_name: "Scanpoint Geomatics Limited",
@@ -130,19 +144,6 @@ const experiences = [
       "One of my significant contributions was incorporating Geographic Information System (GIS) data and services into the platform. By leveraging Open Geospatial Consortium (OGC) services, I enabled geoprocessing capabilities, empowering users to perform spatial analysis and manipulation on the platform. This integration enhanced the platform's functionality and provided users with powerful tools to work with geospatial data effectively.",
       "Designed and developed a Restful API using Node.js, Fastify, and PostgreSQL, implementing SQL injection prevention measures to enhance security and improve application resilience. Optimized response time by 20ms through cluster module integration, resulting in improved performance, and successfully demonstrated the enhancements in a live demo.", 
       "Leveraged expertise in Geometric and spatial operations to optimize data visualization and facilitate precise spatial analysis for smart city initiatives."
-    ],
-  },
-  
-  {
-    title: "Internship",
-    company_name: "MBA Chai Wala",
-    icon: mbachaiwala,
-    iconBg: "#E6DEDD",
-    date: "Sept 2020 - Oct 2020",
-    points: [
-      "During my tenure at MBA Chai Wala, I had the opportunity to engage in strategic collaborations with several event management companies. As part of my role, I actively communicated and built relationships with these companies, seeking opportunities for mutual collaboration and partnership.",
-      "By establishing partnerships with event management companies, we aimed to enhance our brand credibility and expand our reach to a wider audience. Through these collaborations, we were able to offer our services and products to a larger customer base, thereby contributing to the overall growth and success of the company.",
-      "Furthermore, my efforts in building partnerships and collaborations also contributed to enhancing the overall richness of experiences provided to our customers. By leveraging the expertise and resources of event management companies, we were able to create and deliver exceptional events that catered to the diverse interests and preferences of our target audience."
     ],
   }
 ];
